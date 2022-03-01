@@ -30,6 +30,7 @@
 <script>
 export default {
   name: "Login",
+  props: ["title"],
   data() {
     return {
       email: "",
@@ -39,7 +40,7 @@ export default {
   methods: {
     handleSubmit(e) {
       e.preventDefault();
-      console.log(this.email, this.password);
+      this.$router.push("/todo");
     },
   },
   mounted() {

@@ -1,6 +1,6 @@
 <template>
   <div class="wapper">
-    <Login />
+    <Login title="hello vuejs" />
   </div>
 </template>
 
